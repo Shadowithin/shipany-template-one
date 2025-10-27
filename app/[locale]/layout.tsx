@@ -15,6 +15,7 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
+export const runtime = 'edge';
 export async function generateMetadata({
   params: { locale },
 }: {
